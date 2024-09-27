@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lenny's Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Lenny's</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Lenny's</h1>
+            <p>Enjoy quality American dishes in a stylish and relaxed atmosphere</p>
+            <a href="#reservation" class="btn">Make a Reservation</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <p>At Lenny's, we pride ourselves on offering a diverse selection of upscale American dishes crafted with locally sourced ingredients. Our expertly curated menu features both classic and contemporary flavors designed to delight your palate.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <div class="container">
+        <h2>Our Fall Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item classic-item">
+                <h3>Charred Cauliflower Steak</h3>
+                <p>Grilled cauliflower with a black garlic puree, toasted pine nuts, and a bright lemon caper gremolata. Served with roasted heirloom carrots and a smoky paprika drizzle</p>
+            </div>
+            <div class="menu-item">
+                <h3>Butternut Squash Ravioli</h3>
+                <p>Handmade ravioli filled with roasted butternut squash and ricotta, finished with a sage brown butter sauce, crispy sage leaves, and grated pecorino romano</p>
+            </div>
+            <div class="menu-item">
+                <h3>Wild Mushroom Risotto</h3>
+                <p>Creamy Arborio rice cooked with a medley of foraged mushrooms, Parmigiano-Reggiano, and fresh thyme. Garnished with truffle oil and microgreens for an earthy and aromatic finish</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Asparagus & Burrata Salad</h3>
+                <p>Grilled asparagus with creamy burrata cheese, topped with shaved radishes, toasted pistachios, and a drizzle of aged balsamic reduction. Served on a bed of baby arugula</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Seared Diver Scallops</h3>
+                <p>Perfectly seared scallops with a cauliflower puree, golden beets, and a citrus beurre blanc. Finished with crispy pancetta and micro herbs for a delicate balance of flavors</p>
+            </div>
+            <div class="menu-item favorite-item">
+                <h3>Pan-Roasted Wild-Caught Salmon</h3>
+                <p>Wild-caught salmon, pan-roasted and served with a citrus fennel salad, accompanied by a quinoa pilaf and a tangy herb-lemon vinaigrette</p>
+                <div class="overlay-favorite">
+                    <i class="fa-solid fa-star"></i>
+                    <span>Monthly Favorite!</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h3>Sweet Corn & Ricotta Fritters</h3>
+                <p>Lightly fried fritters made with fresh sweet corn, creamy ricotta, and a hint of jalapeño. Served with a tangy avocado-lime crema and a sprinkle of smoked sea salt</p>
+            </div>
+            <div class="menu-item">
+                <h3>Lobster & Crab Cake</h3>
+                <p>A delicate blend of fresh Maine lobster and lump crab, pan-seared to golden perfection. Accompanied by a zesty citrus aioli, pickled fennel slaw, and microgreens for a fresh, coastal finish</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation-section">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <p>Reserve your table and enjoy a great meal with us!</p>
+            <form action="#" method="POST" class="reservation-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <button type="submit" class="btn">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <p>Have questions, or need assistance? Reach out to us!</p>
+            <ul>
+                <li>Email: info@LennysRestaurant.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Address: 328 Greenie Street, Chewyville, USA</li>
+            </ul>
+        
+            <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://yelp.com" target="_blank" class="social-icon"><i class="fa-brands fa-yelp"></i></a>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lenny's | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
